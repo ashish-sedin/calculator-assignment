@@ -1,0 +1,143 @@
+
+ body{
+
+background-color: teal;
+
+ }
+
+h1 
+{  
+    text-align: center;  
+    padding: 23px;  
+    background-color: skyblue;  
+    color: rgb(197, 18, 18);  
+ } 
+h2
+ {
+
+        text-align: end;  
+        padding: 23px;  
+          
+        color: rgb(197, 18, 18);
+        position: relative;top: 390px;
+
+}
+    
+input[type="button"]
+{
+border-radius: 10px;
+background-color:#31f0a0;
+color: black;
+border-color:#ff4456 ;
+width:100%;
+
+box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), 
+inset 0 1px 0 0 rgba(255,255,255,.45),
+ inset 0 -1px 0 0 rgba(255,255,255,.15),
+  0 1px 0 0 rgba(255,255,255,.15);
+
+  text-shadow: 0 1px rgba(255,255,255,.4);
+}
+
+input[type="text"]
+{
+border-radius: 10px;
+text-align: right;
+background-color:white;
+border-color: black ;
+width:100%
+}
+
+.container {
+    background-color: #6bbba7;
+    border: 1px solid #cccccc;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 400px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin:auto;
+}
+
+.button {
+     height: 60px;
+    padding: 5px;
+     font-size: 2rem; 
+
+}
+
+.button:hover {
+    background-color: #899ea8;
+}
+
+.operator {
+    color: #fff;
+    background-color: #eebb24;
+    font-size: x-large;
+}
+
+
+.operator:hover {
+    background-color: #e05353;
+}
+
+.clear {
+
+    
+
+    border-color: #b0353a;
+    color: #fff;
+    width: 160px;
+    height: 50px; 
+    font-size: large;
+    position: relative ;left: 110px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.clear:hover {
+
+    background-color: #1ed14b;
+
+}
+
+.equal-sign {
+
+    background-color: #25a8e0;
+    border-color: #25a8e0;
+    color: #fff;
+
+}
+
+.equal-sign:hover {
+
+    background-color: #c08413;
+
+}
+
+.screen{
+
+    background-color:rgb(171, 219, 231);
+    justify-content: left;
+    color: black;
+    font-size: medium;
+    width: 50%;
+    height: 30%;
+    cursor: default;
+    padding: 10px; 
+    padding-left: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+}
